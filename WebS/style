@@ -1,0 +1,93 @@
+body {
+    background-color: #f8f8f8; 
+    background-image: url(assets/background.jpg);
+    margin: 0;
+    text-align: center;
+    text-align: center;
+    background-attachment: fixed; 
+   
+}
+h1 {
+    font-family: "MV BOLI", cursive; /*заголовок*/
+    text-align: center;
+    color: white;
+    font-size:80px;
+    margin: 0 19px;
+    padding: 150px;
+}
+h2 {
+  font-family: "tahoma", cursive; /*описание*/
+  font-size: 30px;
+  color: #fcd2ce;
+  padding: 5px 5px;
+  font-weight: 400px;
+}
+.header {                 /*появление фона под заголовком*/
+  height: 310px;
+  background-image: url(assets/head.jpg);
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,.5);
+  background-size: cover;
+  margin: 0;
+}
+.maincon{             /*фон, который идет уже после заголовка(можно попробовать заменить на "gold") */
+  background: none;
+}
+.block1 h3, .block2 h3 {    /*подписи под фото*/
+  font-family: arial;
+  font-weight: normal;
+  font-size: 25px;
+  color: #484343;
+}
+.block1 {                /*рамка для первого фото*/
+  border: 2px solid #fcd2ce;
+  border-radius: 13px;
+  padding: 10px;
+  min-width: 350px;
+  display: inline-block;
+  margin: 0 30px;
+}
+.block2 {               /*рамка для второго фото*/
+  border: 2px solid #fcd2ce;
+  border-radius: 13px;
+  padding: 10px;
+  min-width: 350px;
+  display:inline-block;
+}
+.container{              /*информация которая идет после описания*/
+    text-align: center;
+    font-style: italic;
+    color: white;   
+    padding: 35px; 
+    font-size: 22px;
+    line-height:16px;
+     height: 450px; /*увеличение расстояния между описанием и фотками которые в рамке*/
+    
+}
+.container p {        /*оформаление подписи, которое идет после описания*/
+    font-family: "short hand", cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #fcd2ce;
+}
+.container2 {       /*изменение положения текста "все права защищены"*/
+  text-align: center;
+}
+.site-footer {      /*появление рамки у текста "все права защищены"*/
+  min-width: 100px;
+  height: 50px;
+  background-color: Crimson;
+  color: #f2c442;
+  opacity: 0.55;   /*насыщенность текста.рамки*/
+}
+.site-footer .container2 {   /*отступ от самой нижней надписи до фото*/
+  text-align: center; 
+  margin: 300px 0px 0px 0px;
+}
+.site-footer p {       /*изменение вида текста "все права защищены"*/
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 10px;
+  color: Black; 
+}
+
+
